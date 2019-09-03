@@ -1,0 +1,12 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine("Skriv in ett tal: ");
+    int tal = int.Parse(Console.ReadLine());
+    for (int i = tal;i <= 100;i++)
+    {
+      Console.WriteLine(i);
+    }
+  }
+}
